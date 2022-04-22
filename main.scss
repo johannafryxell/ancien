@@ -1,5 +1,5 @@
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 body {
   margin: 0;
@@ -53,12 +53,12 @@ header {
     }
   }
   .top-nav {
-      display: flex;
-      justify-content: end;
-      margin-bottom: 80px;
-      width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 80px;
+    width: 100%;
     .cart-container {
-        margin-right: 40px;
+      margin-right: 40px;
       width: 27px;
       img {
         width: 100%;
