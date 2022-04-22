@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel index.html"
+    "start": "parcel ./*.html",
+    "predeploy": "rm -rf dist && parcel build ./*.html --public-url https://johannafryxell.github.io/ancien/",
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
