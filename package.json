@@ -2,22 +2,16 @@
   "name": "ancien",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel ./*.html",
-    "predeploy": "rm -rf dist && parcel build ./*.html --public-url https://johannafryxell.github.io/ancien/",
-    "deploy": "gh-pages -d dist"
+    "scss": "node-sass --watch scss -o css"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "gh-pages": "^3.2.3",
+    "node-scss": "^7.0.3",
     "parcel": "^2.5.0",
     "sass": "^1.50.1",
     "typescript": "^4.6.3"
-  },
-  "devDependencies": {
-    "@parcel/transformer-sass": "^2.5.0"
   }
 }
